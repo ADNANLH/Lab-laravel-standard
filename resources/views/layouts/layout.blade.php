@@ -17,6 +17,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.2/mdb.min.css"
   rel="stylesheet"
 />
+@vite(['resources/css/app.css', 'resources/js/app.js'])
 <title>Solicode Trello</title>
 </head>
 

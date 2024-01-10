@@ -19,6 +19,9 @@ class TasksController extends Controller
         $this->tasksRepository = $tasksRepository;
         $this->projectRepository = $projectRepository;
     }
+    public function index(){
+        return view('home');
+    }
     public function show(Request $request, $id){
         $task = $this->tasksRepository->show($id);
         $projectData = $this->projectRepository->getData();
